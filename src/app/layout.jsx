@@ -12,6 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <head>
+    <meta name="google-site-verification" content="SPUZnTwkZ-Vbpw3TTxYKNvAUJqCMMPpHVrqOhK4WFMo" />
+   </head>
       <body className={`${gabarito.className} bg-color-dark`} suppressHydrationWarning={true}>
         <Navbar />
         {children}
